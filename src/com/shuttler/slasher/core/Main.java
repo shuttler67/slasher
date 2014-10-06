@@ -7,6 +7,8 @@ public class Main {
     public static void main(String[] args) {
         PixelToy.init();
 
-        PixelToy.quit();
+        while (true) {
+            PixelToy.newFrame();
+        }
     }
 }
